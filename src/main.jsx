@@ -9,7 +9,7 @@ const projects = [
     category: 'Identity / Digital',
     year: '2026',
     type: 'Identity',
-    image: '/Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0006.jpg',
+    image: './Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0006.jpg',
     className: 'project-card project-card--wide',
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     category: 'Editorial / Art Direction',
     year: '2023',
     type: 'Editorial',
-    image: '/Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0010.jpg',
+    image: './Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0010.jpg',
     className: 'project-card project-card--tall',
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     category: 'Campaign / Packaging',
     year: '2026',
     type: 'Campaign',
-    image: '/Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0015.jpg',
+    image: './Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0015.jpg',
     className: 'project-card project-card--small',
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     category: 'Art Direction / Print',
     year: '2022',
     type: 'Editorial',
-    image: '/Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0025.jpg',
+    image: './Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0025.jpg',
     className: 'project-card project-card--medium',
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     category: 'Identity / Campaign',
     year: '2026',
     type: 'Identity',
-    image: '/Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0036.jpg',
+    image: './Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0036.jpg',
     className: 'project-card project-card--wide',
   },
   {
@@ -49,7 +49,7 @@ const projects = [
     category: 'Editorial / Brand',
     year: '2025',
     type: 'Editorial',
-    image: '/Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0039.jpg',
+    image: './Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0039.jpg',
     className: 'project-card project-card--tall',
   },
   {
@@ -57,7 +57,7 @@ const projects = [
     category: 'Campaign / Social',
     year: '2024',
     type: 'Campaign',
-    image: '/Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0040.jpg',
+    image: './Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0040.jpg',
     className: 'project-card project-card--small',
   },
   {
@@ -65,7 +65,7 @@ const projects = [
     category: 'Art Direction / Print',
     year: '2023',
     type: 'Editorial',
-    image: '/Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0043.jpg',
+    image: './Works/Genius Mambwe - Graphic Designer Portfolio 20266_page-0043.jpg',
     className: 'project-card project-card--medium',
   },
 ]
@@ -76,7 +76,7 @@ const brandingProjects = [
     category: 'Identity / Strategy',
     year: '2026',
     type: 'Identity',
-    image: '/Branding/bran.jpg',
+    image: './Branding/bran.jpg',
     className: 'project-card project-card--wide',
   },
   {
@@ -84,7 +84,7 @@ const brandingProjects = [
     category: 'Identity / Brand Systems',
     year: '2025',
     type: 'Editorial',
-    image: '/Branding/bran1.jpg',
+    image: './Branding/bran1.jpg',
     className: 'project-card project-card--tall',
   },
   {
@@ -92,7 +92,7 @@ const brandingProjects = [
     category: 'Campaign / Packaging',
     year: '2026',
     type: 'Campaign',
-    image: '/Branding/bran2.jpg',
+    image: './Branding/bran2.jpg',
     className: 'project-card project-card--small',
   },
   {
@@ -100,7 +100,7 @@ const brandingProjects = [
     category: 'Brand / Print',
     year: '2024',
     type: 'Editorial',
-    image: '/Branding/bran3.jpg',
+    image: './Branding/bran3.jpg',
     className: 'project-card project-card--medium',
   },
   {
@@ -108,7 +108,7 @@ const brandingProjects = [
     category: 'Identity / Campaign',
     year: '2026',
     type: 'Identity',
-    image: '/Branding/Genius Mambwe - Graphic Designer Portfolio 20266_page-0022.jpg',
+    image: './Branding/Genius Mambwe - Graphic Designer Portfolio 20266_page-0022.jpg',
     className: 'project-card project-card--wide',
   },
   {
@@ -116,7 +116,7 @@ const brandingProjects = [
     category: 'Editorial / Visual System',
     year: '2025',
     type: 'Editorial',
-    image: '/Branding/Genius Mambwe - Graphic Designer Portfolio 20266_page-0036.jpg',
+    image: './Branding/Genius Mambwe - Graphic Designer Portfolio 20266_page-0036.jpg',
     className: 'project-card project-card--tall',
   },
   {
@@ -124,7 +124,7 @@ const brandingProjects = [
     category: 'Campaign / Social',
     year: '2024',
     type: 'Campaign',
-    image: '/Branding/Genius Mambwe - Graphic Designer Portfolio 20266_page-0037.jpg',
+    image: './Branding/Genius Mambwe - Graphic Designer Portfolio 20266_page-0037.jpg',
     className: 'project-card project-card--small',
   },
   {
@@ -132,7 +132,7 @@ const brandingProjects = [
     category: 'Art Direction / Print',
     year: '2023',
     type: 'Editorial',
-    image: '/Branding/Genius Mambwe - Graphic Designer Portfolio 20266_page-0040.jpg',
+    image: './Branding/Genius Mambwe - Graphic Designer Portfolio 20266_page-0040.jpg',
     className: 'project-card project-card--medium',
   },
 ]
@@ -146,7 +146,7 @@ function App() {
   return (
     <main>
       <nav className="nav" aria-label="Main navigation">
-        <a className="wordmark" href="#top" aria-label="EAMAI home"><img src="/LOGO Black.png" alt="EAMAI" /></a>
+        <a className="wordmark" href="#top" aria-label="EAMAI home"><img src="./LOGO Black.png" alt="EAMAI" /></a>
         <div className={`nav-links ${menuOpen ? 'nav-links--open' : ''}`}>
           <a href="#work" onClick={() => setMenuOpen(false)}>Selected work</a>
           <a href="#clientelle" onClick={() => setMenuOpen(false)}>Clientelle</a>
@@ -161,7 +161,7 @@ function App() {
       </nav>
 
       <section className="hero" id="top">
-        <img className="hero-watermark" src="/symbol logo edited.png" alt="" aria-hidden="true" />
+        <img className="hero-watermark" src="./symbol logo edited.png" alt="" aria-hidden="true" />
         <div className="hero-topline"><span>Independent graphic designer</span></div>
         <div className="hero-content">
           <div className="hero-kicker">Selected practice <span className="cross">✳</span> 2020—26</div>
@@ -180,7 +180,7 @@ function App() {
           <a className="text-link" href="#contact">Work with me <ArrowUpRight size={17} /></a>
         </div>
         <div className="about-portrait">
-          <img src="/genius-mambwe.jpg.png" alt="Portrait of Genius Mambwe" />
+          <img src="./genius-mambwe.jpg.png" alt="Portrait of Genius Mambwe" />
           <span className="portrait-caption">Genius Mambwe / Creative Lead &amp; Head of MagiqWorqs</span>
         </div>
         <div className="service-folders" aria-label="Creative services">
@@ -218,7 +218,7 @@ function App() {
           <p className="skills-intro">A practical mix of creative direction, design craft and production knowledge, used to turn ambitious ideas into memorable brand experiences.</p>
         </div>
         <div className="skills-board">
-          <img src="/skill set.jpg" alt="Genius Mambwe skill set including Adobe tools, Procreate, printing and marketing" />
+          <img src="./skill set.jpg" alt="Genius Mambwe skill set including Adobe tools, Procreate, printing and marketing" />
         </div>
         <div className="skills-list" aria-label="Skill set list">
           <span>Creative direction</span><span>Brand identity</span><span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>Adobe InDesign</span><span>CorelDRAW</span><span>Digital marketing</span><span>Print production</span><span>Art direction</span>
@@ -228,12 +228,12 @@ function App() {
       <section className="clientelle-section" id="clientelle">
         <div className="clientelle-header">
           <p className="eyebrow">04 / Brands I’ve worked with</p>
-          <img className="clientelle-logo" src="/LOGO white.png" alt="MAGXQWORQS" />
+          <img className="clientelle-logo" src="./LOGO white.png" alt="MAGXQWORQS" />
           <h2>Built for<br /><em>bold brands.</em></h2>
           <p className="clientelle-intro">A selection of ambitious teams and organisations shaped through strategy, identity, campaigns and memorable experiences.</p>
         </div>
         <div className="clientelle-board">
-          <img src="/clientelle.jpg" alt="Clientelle board showing brands Genius Mambwe has worked with" />
+          <img src="./clientelle.jpg" alt="Clientelle board showing brands Genius Mambwe has worked with" />
           <span className="clientelle-caption">Selected clientelle / 2020—26</span>
         </div>
       </section>
@@ -248,7 +248,7 @@ function App() {
         <div className="project-grid branding-grid">{brandingProjects.map((project) => <article className={project.className} key={project.title}><div className="project-image"><img src={project.image} alt={`${project.title} project artwork`} /><span className="project-index">0{brandingProjects.indexOf(project) + 1}</span><span className="project-arrow"><ArrowUpRight size={21} /></span></div><div className="project-info"><h3>{project.title}</h3><p>{project.category}</p><span>{project.year}</span></div></article>)}</div>
       </section>
 
-      <section className="contact-section" id="contact"><p className="eyebrow">06 / Start a conversation</p><img className="contact-symbol" src="/symbol logo edited.png" alt="" aria-hidden="true" /><div className="contact-layout"><h2>Have a good<br /><em>one?</em></h2><div className="contact-detail"><p>For collaborations, commissions<br />or a friendly hello:</p><a href="mailto:hellocreata@gmail.com">hellocreata@gmail.com <ArrowUpRight size={19} /></a><a href="tel:+260974571168">+260 974 571 168 <ArrowUpRight size={19} /></a></div></div><div className="footer-line"><span>© 2026 MAGXQWORQS</span><a className="instagram-link" href="https://www.instagram.com/magiqdepartment/" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg> follow @magiqdepartment</a><span>Lusaka, Zambia <span className="green-dot" /></span></div></section>
+      <section className="contact-section" id="contact"><p className="eyebrow">06 / Start a conversation</p><img className="contact-symbol" src="./symbol logo edited.png" alt="" aria-hidden="true" /><div className="contact-layout"><h2>Have a good<br /><em>one?</em></h2><div className="contact-detail"><p>For collaborations, commissions<br />or a friendly hello:</p><a href="mailto:hellocreata@gmail.com">hellocreata@gmail.com <ArrowUpRight size={19} /></a><a href="tel:+260974571168">+260 974 571 168 <ArrowUpRight size={19} /></a></div></div><div className="footer-line"><span>© 2026 MAGXQWORQS</span><a className="instagram-link" href="https://www.instagram.com/magiqdepartment/" target="_blank" rel="noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg> follow @magiqdepartment</a><span>Lusaka, Zambia <span className="green-dot" /></span></div></section>
     </main>
   )
 }
